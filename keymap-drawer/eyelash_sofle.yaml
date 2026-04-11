@@ -3,15 +3,15 @@ layers:
   FRENCH:
   - $$mdi:keyboard-esc$$
   - '&'
-  - {t: ;, s: ':'}
+  - '&unicode_map E_ACUTE'
   - '"'
   - {t: '''', s: '"'}
   - (
   - $$mdi:arrow-up-bold$$
   - {t: '-', s: _}
-  - QUOTE
+  - '&unicode_map E_GRAVE'
   - _
-  - '}'
+  - '&unicode_map A_GRAVE'
   - )
   - $$mdi:arrow-up-bold$$
   - $$mdi:keyboard-tab$$
