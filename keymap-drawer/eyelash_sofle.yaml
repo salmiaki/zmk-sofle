@@ -109,15 +109,15 @@ layers:
   - '?'
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - SECTION
+  - {t: \, s: '|'}
   - +
   - {t: '$$mdi:transfer$$', type: trans}
   - '?'
   - {t: ;, s: ':'}
   - ':'
   - {t: /, s: '?'}
-  - SECTION
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '?'
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
