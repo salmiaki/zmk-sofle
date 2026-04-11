@@ -104,7 +104,7 @@
 &kp ESC   &kp N1     &kp N2       &kp N3     &kp N4   &kp N5       &trans     &kp N6   &kp N7   &kp N8   &kp N9   &kp N0   &kp BSPC
 &trans    &kp AT     &kp HASH     &kp DLLR   &kp PERCENT &kp CARET &trans    &kp AMPS &kp ASTERISK &kp LPAR &kp RPAR &kp EQUAL &kp ENTER
 &trans    &kp LBKT   &kp RBKT     &kp LBRC   &kp RBRC &kp PIPE     &trans     &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp BSLH &kp DEL
-&trans    &kp QMARK  &kp DOT     &kp SLASH   &kp SECTION &kp PLUS  &trans     &kp QMARK &kp SEMI &kp COLON &kp SLASH &kp SECTION &trans
+&trans    &kp QMARK  &kp DOT     &kp SLASH   &kp BSLH &kp PLUS  &trans     &kp QMARK &kp SEMI &kp COLON &kp SLASH &kp QMARK &kp BSLH
 &trans    &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT   &to 2  &kp SPACE   &trans   &kp SPACE  &kp ENTER  &kp BACKSPACE  &to 0  &kp RCTRL
             >;
 
