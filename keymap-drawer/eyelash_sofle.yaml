@@ -154,8 +154,8 @@ layers:
   - INS
   - $$mdi:printer-outline$$
   - SLCK
-  - PAUSE
-  - F12
+  - PAUSE BREAK
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
@@ -164,12 +164,12 @@ layers:
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - MUTE
+  - MUTE2
   - VOL DN
   - VOL UP
   - NEXT
   - PREV
-  - PLAY PAUSE
+  - PP
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
