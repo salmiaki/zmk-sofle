@@ -66,7 +66,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   SYMBOL:
-  - '@'
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -79,7 +79,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - $$mdi:arrow-up-bold$$
-  - '#'
+  - '@'
   - KP NUM
   - KP 7
   - KP 8
@@ -92,21 +92,21 @@ layers:
   - )
   - '|'
   - $$mdi:arrow-down-bold$$
-  - $
+  - '#'
   - KP DIVIDE
   - KP 4
   - KP 5
   - KP 6
   - KP MINUS
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - '{'
+  - '}'
+  - <
+  - '>'
   - {t: \, s: '|'}
   - $$mdi:arrow-left-bold$$
+  - $
   - '%'
-  - $$mdi:backspace-reverse-outline$$
   - KP 1
   - KP 2
   - KP 3
@@ -119,7 +119,7 @@ layers:
   - $$mdi:printer-outline$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - CLEAR2
+  - $$mdi:backspace-reverse-outline$$
   - KP 0
   - KP DOT
   - {t: NAV, h: toggle}
@@ -146,21 +146,21 @@ layers:
   - F12
   - $$mdi:printer-outline$$
   - INS
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
   - VOL UP
   - VOL DN
   - SLCK
   - HOME
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
@@ -172,8 +172,8 @@ layers:
   - PP
   - PAUSE BREAK
   - END
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -217,8 +217,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - BRI INC
+  - $$mdi:brightness-7$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -236,8 +236,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
+  - RGB TOG
+  - RGB SAD
   - RGB EFF
   - RGB EFR
   - RGB SPI
@@ -251,9 +251,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB BRI
   - RGB BRD
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB COLOR HSV
+  - RGB ON
+  - RGB OFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
