@@ -15,8 +15,8 @@ layers:
   - )
   - $$mdi:arrow-up-bold$$
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
+  - A
+  - Z
   - E
   - R
   - T
@@ -28,7 +28,7 @@ layers:
   - P
   - $$mdi:arrow-down-bold$$
   - $$mdi:apple-keyboard-caps$$
-  - A
+  - Q
   - S
   - D
   - F
@@ -38,10 +38,10 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
+  - M
   - $$mdi:arrow-left-bold$$
   - $$mdi:apple-keyboard-shift$$
-  - Z
+  - W
   - X
   - C
   - V
@@ -66,7 +66,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   SYMBOL:
-  - $$mdi:keyboard-esc$$
+  - '@'
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -78,50 +78,50 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '@'
+  - $$mdi:arrow-up-bold$$
   - '#'
-  - $
-  - '%'
-  - ^
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '=', s: +}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - KP NUM
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP ASTERISK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '{'
-  - '}'
+  - (
+  - )
   - '|'
+  - $$mdi:arrow-down-bold$$
+  - $
+  - KP DIVIDE
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP MINUS
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: \, s: '|'}
+  - $$mdi:arrow-left-bold$$
+  - '%'
   - $$mdi:backspace-reverse-outline$$
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP PLUS
   - {t: '$$mdi:transfer$$', type: trans}
-  - '?'
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: \, s: '|'}
-  - +
-  - {t: '$$mdi:transfer$$', type: trans}
+  - ^
   - '?'
   - {t: ;, s: ':'}
-  - ':'
   - {t: /, s: '?'}
-  - '?'
-  - {t: \, s: '|'}
+  - $$mdi:printer-outline$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - CLEAR2
+  - KP 0
+  - KP DOT
   - {t: NAV, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -144,32 +144,34 @@ layers:
   - F10
   - F11
   - F12
+  - $$mdi:printer-outline$$
+  - INS
   - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
   - $$mdi:arrow-up-bold$$
-  - END
+  - {t: '$$mdi:transfer$$', type: trans}
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INS
-  - $$mdi:printer-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - VOL UP
+  - VOL DN
   - SLCK
-  - PAUSE BREAK
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - HOME
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - MUTE2
-  - VOL DN
-  - VOL UP
-  - NEXT
-  - PREV
   - PP
+  - PAUSE BREAK
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -179,10 +181,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PREV
+  - NEXT
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
