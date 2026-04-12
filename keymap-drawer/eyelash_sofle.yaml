@@ -251,7 +251,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB BRI
   - RGB BRD
-  - RGB COLOR HSV
+  - RGB COLOR HSB(30, 100, 50)
   - RGB ON
   - RGB OFF
   - {t: '$$mdi:transfer$$', type: trans}
